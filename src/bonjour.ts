@@ -1,5 +1,5 @@
 
-import * as EventEmitter from 'events';
+import { EventEmitter } from 'events';
 import * as Bonjour from 'bonjour';
 import * as dgram from 'dgram';
 const bonjour = Bonjour();

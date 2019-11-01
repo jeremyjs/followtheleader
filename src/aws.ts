@@ -1,6 +1,6 @@
 
 import * as fs from 'fs';
-import * as EventEmitter from 'events';
+import { EventEmitter } from 'events';
 import { ECS } from 'aws-sdk';
 
 export class AWSElector extends EventEmitter {
